@@ -6,8 +6,11 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "TLSManager.h"
 
 @interface ViewController : NSViewController
+
+- (void) appendToOutputLog: (NSString *)logMessage;
 
 
 @end
